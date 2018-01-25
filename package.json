@@ -1,0 +1,46 @@
+{
+  "name": "webpack-tree-shaking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --env development",
+    "build": "webpack --env production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mthpvg/webpack-tree-shaking.git"
+  },
+  "keywords": [
+    "webpack",
+    "tree",
+    "shaking"
+  ],
+  "author": "mthpvg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mthpvg/webpack-tree-shaking/issues"
+  },
+  "homepage": "https://github.com/mthpvg/webpack-tree-shaking#readme",
+  "devDependencies": {
+    "babili-webpack-plugin": "^0.1.2",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "cssnano": "^3.10.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^2.30.1",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "pug": "^2.0.0-rc.4",
+    "pug-loader": "^2.3.0",
+    "style-loader": "^0.19.0",
+    "uglifyjs-webpack-plugin": "^1.0.1",
+    "webpack": "^3.8.1",
+    "webpack-common-shake": "^1.5.3",
+    "webpack-dev-server": "^2.9.3",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "d3": "^4.11.0"
+  }
+}
