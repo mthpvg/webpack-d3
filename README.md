@@ -3,15 +3,9 @@
 ## Quick start
 ```bash
 npm install
-```
-
-### Development
-```bash
+# development
 npm start
-```
-
-### "Production"
-```bash
+# or "production"
 npm run build
 ```
 
