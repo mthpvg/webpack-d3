@@ -1,5 +1,8 @@
 # webpack-d3
 
+## Preview
+![Screenshot](./resources/screenshot.png)
+
 ## Quick start
 ```bash
 npm install
@@ -8,9 +11,6 @@ npm start
 # or "production"
 npm run build
 ```
-
-## Preview
-![Screenshot](./resources/screenshot.png)
 
 ## Based on
 https://bl.ocks.org/mbostock/3884955
